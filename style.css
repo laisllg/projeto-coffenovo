@@ -1,0 +1,199 @@
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px; /* Ajuste conforme necessário */
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white; /* Defina a cor do texto dos links do menu */
+}
+
+.navbar a:hover {
+    color: #fff;
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.icons img {
+    margin-left: 10px;
+}
+
+.icons img:hover {
+    width: 20px;
+    height: 20px;
+}
+
+.btn {
+background: var(--main-color);
+color: #fff;
+padding: 1rem 3rem;
+font-size: 1.0rem;
+cursor: pointer;
+margin-top: 1rem;
+display: inline-block;
+}
+
+.btn:hover {
+letter-spacing: 0.1rem;
+}
+
+
+/* Estilos para a seção principal */
+.home-container {
+    background: url('./img/home-img.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    text-align: center;
+}
+
+.content h3 {
+    color:#fff;
+    font-size: 2rem;
+}
+
+.content {
+    color:#fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para a seção "Sobre" */
+.about {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+    color:#fff
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-image img {
+    max-width: 100%;
+}
+
+/* Estilos para a seção "Menu" */
+.menu {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #333;
+    color:#fff
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: #000;
+}
+
+.box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(33.33% - 40px); /* Ajuste conforme necessário */
+}
+
+/* Estilos para a seção "Avaliações" */
+.review {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #333;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(7, 197, 22, 0.1);
+    text-align: center;
+    width: calc(33.33% - 40px); /* Ajuste conforme necessário */
+}
+
+/* Estilos para a seção "Endereço" */
+.address {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #333;
+    color:#fff
+}
+
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.share img {
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.footer .share img:hover {
+    width: 20px;
+    height: 20px;
+}
+
